@@ -1,0 +1,17 @@
+# tutorials
+
+# Blog
+# https://www.fastapitutorial.com/blog/fastapi-hello-world/
+
+# New
+# https://youtu.be/gQTRsZpR7Gw?t=4386
+
+# Older
+# https://youtu.be/kyJNbSUz86w?t=531
+
+# Sqlalchemy relationships
+https://docs.sqlalchemy.org/en/14/orm/basic_relationships.html
+
+# Server 100$ coupon
+https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqbXhjVnhTaU9xQjZ1Yk50ZnBBeG1COGk2OGFBd3xBQ3Jtc0trTTI0RlBRQ0tVWGlTejFRbC04X1k3VW55Sm1MMXlYUHJ4U1VIWkotV1plSDBxczhuVWlYcTJxZjlhOXlsdEN6S2g5YW53RWU0ajB5WVdJeTQyWmV6a2pKcUM4MjlscjJETm1RTnZjYThqbkhIeU5FZw&q=https%3A%2F%2Fwww.linode.com%2Flinuxexperiment&v=2JVeepNxeFo
+https://www.linode.com/lp/youtube-viewers/?ifso=linuxexperiment&utm_source=influencer&utm_medium=video&utm_campaign=linuxexperiment
