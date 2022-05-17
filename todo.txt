@@ -1,7 +1,7 @@
 # tutorials
 
 # Blog
-# https://www.fastapitutorial.com/blog/fastapi-hello-world/
+# https://www.fastapitutorial.com/blog/serving-html-fastapi/
 
 # New
 # https://youtu.be/gQTRsZpR7Gw?t=4386
