@@ -8,6 +8,7 @@ authors = ["Mario Krajacic <krajacic.mario@gmail.com>"]
 python = "^3.10"
 fastapi = "^0.78.0"
 uvicorn = "^0.17.6"
+Jinja2 = "^3.1.2"
 
 [tool.poetry.dev-dependencies]
 pytest = "^5.2"
