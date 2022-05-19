@@ -1,30 +1,22 @@
+import os
+from dotenv import load_dotenv
+
+from pathlib import Path
+
+env_path = Path('.') / '.env'
+load_dotenv(dotenv_path=env_path)
+
+
 class Settings:
-    PROJECT_NAME: str = "Moj app"
+    PROJECT_NAME: str = "Job Board"
     PROJECT_VERSION: str = "1.0.0"
-    # PROJECT_DESCRIPTION: str = """
-    #     ChimichangApp API helps you do awesome stuff. 🚀
-    #
-    #     ## Items
-    #
-    #     You can **read items**.
-    #
-    #     ## Users
-    #
-    #     You will be able to:
-    #
-    #     * **Create users** (_not implemented_).
-    #     * **Read users** (_not implemented_).
-    #     """
-    TERMS_OF_SERVICE = "http://example.com/terms/",
-    CONTACT = {
-                  "name": "Deadpoolio the Amazing",
-                  "url": "http://x-force.example.com/contact/",
-                  "email": "dp@x-force.example.com",
-              },
-    LICENCE_INFO = {
-        "name": "Apache 2.0",
-        "url": "https://www.apache.org/licenses/LICENSE-2.0.html",
-    }
+
+    POSTGRES_USER: str = os.getenv("POSTGRES_USER")
+    POSTGRES_PASSWORD = os.getenv("POSTGRES_PASSWORD")
+    POSTGRES_SERVER: str = os.getenv("POSTGRES_SERVER", "localhost")
+    POSTGRES_PORT: str = os.getenv("POSTGRES_PORT", 5432)  # default postgres port is 5432
+    POSTGRES_DB: str = os.getenv("POSTGRES_DB", "tdd")
+    DATABASE_URL = f"postgresql://{POSTGRES_USER}:{POSTGRES_PASSWORD}@{POSTGRES_SERVER}:{POSTGRES_PORT}/{POSTGRES_DB}"
 
 
 settings = Settings()
