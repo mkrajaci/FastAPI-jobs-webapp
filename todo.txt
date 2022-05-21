@@ -1,7 +1,7 @@
 # tutorials
 
 # Blog
-# https://www.fastapitutorial.com/blog/database-connection-fastapi/ - pgadmin
+# https://www.fastapitutorial.com/blog/schemas-in-fastapi/
 
 # New
 # https://youtu.be/gQTRsZpR7Gw?t=4386
