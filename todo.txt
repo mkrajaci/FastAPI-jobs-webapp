@@ -1,7 +1,7 @@
 # tutorials
 
 # Blog
-# https://www.fastapitutorial.com/blog/schemas-in-fastapi/
+# https://www.fastapitutorial.com/blog/delete-route-fastapi/
 
 # New
 # https://youtu.be/gQTRsZpR7Gw?t=4386
