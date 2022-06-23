@@ -1,7 +1,7 @@
 # tutorials
 
 # Blog
-# https://www.fastapitutorial.com/blog/fastapi-listview/
+# https://www.fastapitutorial.com/blog/user-registration-fastapi/ + add checks mentioned in the middle of the post
 
 # New
 # https://youtu.be/gQTRsZpR7Gw?t=4386

@@ -23,5 +23,7 @@ class Settings:
     ACCESS_TOKEN_EXPIRE_MINUTES = 30
     TEST_USER_EMAIL = "test@example.com"
 
+    ENABLE_USER_REGISTRATION = os.getenv("ENABLE_USER_REGISTRATION")
+
 
 settings = Settings()
