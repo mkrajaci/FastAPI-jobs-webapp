@@ -15,6 +15,9 @@ from db.repository.jobs import create_new_job
 from fastapi import responses, status
 from fastapi.security.utils import get_authorization_scheme_param
 
+from typing import Optional
+from db.repository.jobs import search_job
+
 templates = Jinja2Templates(directory="templates")
 router = APIRouter(include_in_schema=False)
 
@@ -66,4 +69,14 @@ def show_jobs_to_delete(request: Request, db: Session = Depends(get_db)):
     jobs = list_jobs(db=db)
     return templates.TemplateResponse(
         "jobs/show_jobs_to_delete.html", {"request": request, "jobs": jobs}
+    )
+
+
+@router.get("/search/")
+def search(
+        request: Request, db: Session = Depends(get_db), query: Optional[str] = None
+):
+    jobs = search_job(query, db=db)
+    return templates.TemplateResponse(
+        "general_pages/homepage.html", {"request": request, "jobs": jobs}
     )
