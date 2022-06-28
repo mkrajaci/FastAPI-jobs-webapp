@@ -1,7 +1,7 @@
 # tutorials
 
 # Blog
-# https://www.fastapitutorial.com/blog/fastapi-jinja-login/
+# https://www.fastapitutorial.com
 
 # New
 # https://youtu.be/gQTRsZpR7Gw?t=4386
