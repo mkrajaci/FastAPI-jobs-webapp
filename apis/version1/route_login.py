@@ -17,7 +17,11 @@ router = APIRouter()
 
 
 def authenticate_user(username: str, password: str, db: Session):
-    user = get_user(username=username, db=db)
+    # todo fix approach to be or by username or by email
+    if username.__contains__("@"):
+        user = get_user_by_email(email=username, db=db)
+    else:
+        user = get_user(username=username, db=db)
     print(user)
     if not user:
         return False
